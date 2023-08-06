@@ -3,7 +3,10 @@
 
 The Online Student Project Submission Portal is a cutting-edge platform designed to streamline the project submission process for students and facilitate efficient project reviewing for faculty members. With its user-friendly interface and robust features, this platform aims to enhance student-faculty collaboration, leading to a more productive and rewarding academic experience.
 
-### Features
+<br/>
+<br/>
+
+### :sparkles: Features
 
 - **Easy Project Submission**: The portal allows students to effortlessly submit their projects online, eliminating the need for cumbersome paperwork and manual submissions.
 
@@ -21,20 +24,38 @@ The Online Student Project Submission Portal is a cutting-edge platform designed
 
 - **Documentation Support**: The platform accommodates various file formats, including documents, images, and multimedia, to ensure comprehensive project documentation.
 
-## Admin Dashboard
+<br/>
+<br/>
 
+
+### :wrench: Tools and Technology
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)  
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+<br/>
+<br/>
+
+### :framed_picture: Project Snapshots
+
+## Admin Dashboard
 ![alt](./images/Admin-Dashboard.jpg)
 
-
 ## Login Page
-
 ![alt](./images/Login.jpg)
 
-
-## Admin Dashboard
-
+## Faculty Dashboard
 ![alt](./images/Faculty-Dashboard.jpg)
 
-## Admin Dashboard
-
+## Student Dashboard
 ![alt](./images/Student-Dashboard.jpg)
+
+
+<br/>
+<br/>
+
+### :loudspeaker: Feedback and Support
+
+For any feedback, suggestions, or support, please open an issue on our GitHub repository or reach out to our team via email.
+
+Let's drive the automotive industry into the future with the Car Sales Management System! Embrace the power of technology for an optimized and seamless car service experience.
