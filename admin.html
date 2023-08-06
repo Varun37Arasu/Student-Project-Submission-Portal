@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<head>
+		<!-- Linking the css file -->
+  <link rel="stylesheet" href="SDashboard.css">
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+ 		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />			
+</head>
+
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <ul>
+        <li class="nav-links">
+          <a href="#" class="active">
+            <span class="icon"><i class='bx bxs-dashboard'></i></span>
+            <span class="links_name rotate">Admin Dashboard</span>
+          </a>
+        </li>        
+     
+        <li class="nav-links log_out">
+          <a href="#">
+            <span class="icon icon1"><i class='bx bx-log-out'></i></span>
+            <span class="links_name bottom">Log out</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <section class="home-section">
+      <nav>
+        <div class="sidebar-button">
+          <i class='bx bx-menu sidebarBtn'></i>
+          <span class="dashboard">Dashboard</span>
+        </div>
+        <div class="search-box">
+          <input type="text" placeholder="Search...">
+          <i class='bx bx-search'></i>
+        </div>
+      </nav>
+
+      <div class="home-content">
+        <div class="overview-boxes">
+        				
+          <div class="box">
+            <div class="right-side">
+              <div class="box-topic">Total number of students</div>
+              <div class="number">60</div>
+              <div class="indicator">
+                <i class='bx bx-id-card'></i>
+                <span class="text">From CSE 3D</span>
+              </div>
+            </div>
+            <i class='bx bxs-group icon one'></i>
+          </div>
+          
+          <div class="box">
+            <div class="right-side">
+              <div class="box-topic">Total number of batches</div>
+              <div class="number">4</div>
+              <div class="indicator">
+                <i class='bx bx-user-plus'></i>
+                <span class="text">16 students per batch</span>
+              </div>
+            </div>
+            
+            <i class='bx bxs-face icon three'></i>
+          </div>
+          
+          
+          <div class="box">
+            <div class="right-side">
+              <div class="box-topic">Number of teams </div>
+              <div class="number">18</div>
+              <div class="indicator">
+                <i class='bx bx-check-circle'></i>
+                <span class="text">2 to 4 students per team</span>
+              </div>
+            </div>
+            <i class='bx bxs-book-content icon two'></i>
+          </div>
+          
+          <div class="box">
+            <div class="right-side">
+              <div class="box-topic">Number of instructors for the course</div>
+              <div class="number">4</div>
+              <div class="indicator">
+                <i class='bx bxs-pen' ></i>
+                <span class="text">1 instructor per batch</span>
+              </div>
+            </div>
+           <i class='bx bxs-user icon four'></i>
+          </div>
+        </div>
+        </div>
+
+        <!-- Details -->       
+       <div class="details">
+          <div class="tableDetails teamDetails">
+            <div class="cardHeader">
+              <h2> Faculty/Instructor Account Details</h2>
+              <a href="#" class="btn">View All</a>
+            </div>
+            <div class="detail">
+              <table>
+                <thead>
+                  <tr>
+                  		<td>SI. No</td>
+                    <td>Name</td>
+                    <td>College mail-ID</td>
+                    <td>Password</td>
+                    <td>Batch in-charge</td>
+                    <td>Number of students alloted</td>
+                    <td>Account Status</td>                   
+                 </tr>
+                </thead>
+                
+                <tbody>
+                  <tr>
+                    <td>01</td>
+                    <td>
+                      Sowmya V
+                    </td>                    <td>sowmyav.cse@bmsce.ac.in</td>                 
+                    <td>1234********</td>                  
+                    <td>D2</td>                  
+                    <td>15</td>
+                    <td>Active</td>
+                  </tr>
+
+                   <tr>
+                    <td>02</td>
+                    <td>
+                      Sowmya V
+                    </td>                    <td>sowmyav.cse@bmsce.ac.in</td>                  
+                    <td>1234********</td>                  
+                    <td>D2</td>                  
+                    <td>15</td>
+                    <td>Active</td>
+                  </tr>
+
+                  <tr>
+                    <td>03</td>
+                    <td>
+                      Sowmya V
+                    </td>                  <td>sowmyav.cse@bmsce.ac.in</td>                 
+                    <td>1234********</td>                  
+                    <td>D2</td>     
+                    <td>15</td>
+                    <td>Active</td>
+                  </tr>
+
+ <tr>
+                    <td>04</td>
+                    <td>
+                      Sowmya V
+                    </td>                   <td>sowmyav.cse@bmsce.ac.in</td>                   
+                    <td>1234********</td>                  
+                    <td>D2</td>                 
+                    <td>15</td>
+                    <td>Active</td>
+                  </tr>                
+                </tbody>
+              </table>          
+            </div>
+          </div>
+        </div>  
+              
+        
+        <!-- Details -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        
+        <div class="swiper-slide">
+          <div class="details">
+          <div class="tableDetails teamDetails">
+            <div class="cardHeader">
+              <h2> Students Account Details</h2>
+              <a href="#" class="btn">View All</a>
+            </div>
+            <div class="detail">
+            				
+              <table>
+                <thead>
+                  <tr>
+                    <td>SI No.</td>
+                    <td>Name</td>
+                    <td>USN</td>
+                    <td>College Mail-ID</td>
+                    <td>Password</td>
+                    <td>Department</td>
+                    <td>Section</td>
+                    <td>Batch</td>                 
+                    <td>Account Status</td>                   
+                 </tr>
+                </thead>
+                
+                <tbody>
+                  <tr>
+                    <td>01</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+
+                   <tr>
+                    <td>02</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>03</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>04</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>05</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>06</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>07</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>08</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>09</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>10</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                  </tbody>
+              </table>
+            </div>
+          </div>
+        </div>   
+      </div>
+                
+               
+       <div class="swiper-slide">
+        <div class="details">
+          <div class="tableDetails teamDetails">
+            <div class="cardHeader">
+              <h2> Students Account Details</h2>
+              <a href="#" class="btn">View All</a>
+            </div>
+            <div class="detail">
+            				
+              <table>            
+              	 <thead>
+                  <tr>
+                    <td>SI No.</td>
+                    <td>Name</td>
+                    <td>USN</td>
+                    <td>College Mail-ID</td>
+                    <td>Password</td>
+                    <td>Department</td>
+                    <td>Section</td>
+                    <td>Batch</td>                 
+                    <td>Account Status</td>                  
+                 </tr>
+                </thead>
+                
+                <tbody>
+                  <tr>
+                    <td>11</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+
+                   <tr>
+                    <td>12</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>13</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>14</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>15</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>16</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>17</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>18</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>19</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>20</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                  </tbody>
+              </table>
+            </div>
+          </div>
+        </div>   
+      </div>
+      
+      <div class="swiper-slide">
+          <div class="details">
+          <div class="tableDetails teamDetails">
+            <div class="cardHeader">
+              <h2> Students Account Details</h2>
+              <a href="#" class="btn">View All</a>
+            </div>
+            <div class="detail">
+          
+              <table>
+                <thead>
+                  <tr>
+                    <td>SI No.</td>
+                    <td>Name</td>
+                    <td>USN</td>
+                    <td>College Mail-ID</td>
+                    <td>Password</td>
+                    <td>Department</td>
+                    <td>Section</td>
+                    <td>Batch</td>                 
+                    <td>Account Status</td>                    
+                 </tr>
+                </thead>
+                
+                <tbody>
+                  <tr>
+                    <td>21</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+
+                   <tr>
+                    <td>22</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>23</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>24</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>25</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>26</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>27</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>28</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>29</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>30</td>
+                    <td>Varun Urs M S</td>
+                    <td>1BM20CS182</td> 
+                <td>varunms.cs20@bmsce.ac.in</td>                  
+                    <td>1234**********</td>
+                    <td>CSE</td>
+                    <td>3D</td>
+                    <td>D2</td>
+                    <td>Active</td>
+                  </tr>
+                  
+                  </tbody>
+              </table>
+            </div>
+          </div>
+        </div>   
+      </div>
+         class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+        
+        </div>
+      </div>
+  </section>
+  
+<!-- linking the javascript files -->
+ <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+<script>
+				/*  Toggling the navgation menu*/
+let sidebar = document.querySelector(".sidebar");
+    let sidebarBtn = document.querySelector(".sidebarBtn");
+    sidebarBtn.onclick = function () {
+      sidebar.classList.toggle("active");
+      if (sidebar.classList.contains("active")) {
+        sidebarBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+      } else
+        sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+    }			
+</script>
+  <!-- Initialize Swiper -->
+    <script>
+       
+      var swiper = new Swiper(".mySwiper", {
+        grabCursor: true,
+        effect: "creative",
+        creativeEffect: {
+          prev: {
+            shadow: false,
+            translate: ["2%", 0, -1],
+          },
+          next: {
+            translate: ["100%", 0, 0],
+          },
+        },
+      });
+      
+    </script>
+</body>
+</html>
