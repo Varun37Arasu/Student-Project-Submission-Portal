@@ -21,5 +21,20 @@ The Online Student Project Submission Portal is a cutting-edge platform designed
 
 - **Documentation Support**: The platform accommodates various file formats, including documents, images, and multimedia, to ensure comprehensive project documentation.
 
+## Admin Dashboard
+
+![alt](./images/Admin-Dashboard.jpg)
 
 
+## Login Page
+
+![alt](./images/Login.jpg)
+
+
+## Admin Dashboard
+
+![alt](./images/Faculty-Dashboard.jpg)
+
+## Admin Dashboard
+
+![alt](./images/Student-Dashboard.jpg)
